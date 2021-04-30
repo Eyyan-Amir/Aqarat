@@ -359,7 +359,7 @@
         <div class="propertyDetails__details--warning">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-12 text-md-let text-center mb-20">
+                    <div class="col-md-6 col-12 text-md-let text-center">
                         <a href="" class="warning text-danger">
                             <span>
                                 <img src="src/images/icons/danger.png" alt="" class="img-fluid">
