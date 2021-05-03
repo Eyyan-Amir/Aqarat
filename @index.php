@@ -6,7 +6,7 @@
             <div class="container">
                 <h1 class="text-center">Find Your <span>Perfect place</span></h1>
                 <div class="searchProperty__input">
-                    <input type="text" class="form-control" placeholder="Where do you want to search?">
+                    <input type="text" class="form-control searchInput" placeholder="Where do you want to search?">
                 </div>
             </div>
             
@@ -58,6 +58,63 @@
                 </div>
             </div>
         </div>
+        <!-- New Properties to Rent -->
+        <div class="featuredProperties" id="propertiesRent">
+            <div class="container featuredProperties__head">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="sectionTitle text-center">New Properties to Rent</h2>
+                    <a href="#" class="btn btn-primary">View All</a>
+                </div>
+            </div>
+            <div class="featuredProperties__wrapper">
+                <div class="properties">
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                </div>
+            </div>
+            <div class="featuredProperties__wrapper--slider"></div>
+        </div>
+        <!-- New Properties to Rent -->
+        <!-- New Properties to Buy -->
+        <div class="featuredProperties" id="propertiesBuy">
+            <div class="container featuredProperties__head">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="sectionTitle text-center">New Properties to Buy</h2>
+                    <a href="#" class="btn btn-primary">View All</a>
+                </div>
+            </div>
+            <div class="featuredProperties__wrapper">
+                <div class="properties">
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                    <?php include "includes/featuredProperty.php"?>
+                </div>
+            </div>
+            <div class="featuredProperties__wrapper--slider"></div>
+        </div>
+        <!-- New Properties to Buy -->
         <div class="lifestyle">
             <div class="container">
                 <h2 class="sectionTitle text-center">Find Properties based on your lifestyle</h2>

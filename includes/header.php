@@ -19,6 +19,8 @@
     <script src="src/js/menu.js"></script>
     <script src="src/js/bootstrap-datetimepicker.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="src/js/jquery-ui.min.js"></script>
+    <script src="src/js/jquery.easy-autocomplete.min.js"></script>
     <script src="src/js/custom.js"></script> 
 
     <link rel="stylesheet" href="https://www.jqueryscript.net/demo/Coverflow-Style-Image-Carousel-Plugin-For-jQuery-Carousel-Evolution/style/content.css">
@@ -32,6 +34,8 @@
     <link rel="stylesheet" href="src/css/bootstrap-select.css">
     <link rel="stylesheet" href="src/css/menu.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="src/css/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="src/css/easy-autocomplete.min.css" rel="stylesheet">
     <link href="src/css/main.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/273df80109.js" crossorigin="anonymous"></script> 	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 

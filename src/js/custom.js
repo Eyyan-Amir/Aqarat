@@ -12,6 +12,9 @@ $(document).ready(function() {
         datetimepicker3: $("#datetimepicker3"),
         datetimepicker4: $("#datetimepicker4"),
         filterToggle: $(".propertyListing__filter--icon, .propertyListing__filter--close"),
+        sliderRent: $("#propertiesRent .featuredProperties__wrapper--slider"),
+        sliderBuy: $("#propertiesBuy .featuredProperties__wrapper--slider"),
+        searchInput: $(".searchInput")
 
     });
 });
@@ -32,6 +35,8 @@ var aqarat = {
         // this.datetimePickers();
         this.stickyHeader();
         this.tabsChange();
+        this.featuredProperties();
+        this.searchProperty();
         // this.rippleEffect();
         //this.filters();
     },
@@ -188,13 +193,36 @@ var aqarat = {
             $(prnt).find('input[type="file"]').val('')
         })
     },
-    filters: function() {
-        event.preventDefault();
+    filters: function(e) {
+        e.preventDefault();
         $(this).parents(".propertyListing__filter").toggleClass("toggle");
     },
     updateScroll: function() {
         
         $(".inner-scroll").mCustomScrollbar('update');
+    },
+    featuredProperties: function(e){
+        this.settings.sliderRent.slider({
+            min: 0,
+            max: $("#propertiesRent .featuredProperties__wrapper").innerWidth(),
+        });
+        this.settings.sliderRent.on( "slide", function( event, ui ) {
+            $("#propertiesRent .featuredProperties__wrapper").css("left", -ui.value + "px");
+        } );
+        this.settings.sliderBuy.slider({
+            min: 0,
+            max: $("#propertiesBuy .featuredProperties__wrapper").innerWidth(),
+        });
+        this.settings.sliderBuy.on( "slide", function( event, ui ) {
+            $("#propertiesBuy .featuredProperties__wrapper").css("left", -ui.value + "px");
+        } );
+    },
+    searchProperty: function(){
+        var options = {
+            url: "src/data/addresses.json",
+            getValue: "name"
+        };
+        this.settings.searchInput.easyAutocomplete(options);
     },
     configureModal: function() {
         $("body").on("click", "*[data-toggle='custom-modal']", function(e) {
@@ -301,7 +329,6 @@ $(document).ready(function(){
         before:function(carousel) {
             var current = carousel.current;
             var total = carousel.length;
-            console.log(carousel)
             $('.slidesCounter span.total').text(`${total} `)
             $('.slidesCounter span.current').text(` ${current + 1}`) 
         }
