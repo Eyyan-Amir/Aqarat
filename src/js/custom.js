@@ -136,7 +136,7 @@ var aqarat = {
             e.preventDefault();
             $("li.search form").removeClass("search-active");
         });
-        $(".toggler-filter .nav-link").on("click", function(e) {
+        $(".toggler-filter").on("click", function(e) {
             if ($(window).width() <= 991) {
                 $(".toggler-filter .nav-tabs").slideToggle();
                 var title = $(this).text();
@@ -198,26 +198,26 @@ var aqarat = {
         $(this).parents(".propertyListing__filter").toggleClass("toggle");
     },
     updateScroll: function() {
-        
+
         $(".inner-scroll").mCustomScrollbar('update');
     },
-    featuredProperties: function(e){
+    featuredProperties: function(e) {
         this.settings.sliderRent.slider({
             min: 0,
             max: $("#propertiesRent .featuredProperties__wrapper").innerWidth(),
         });
-        this.settings.sliderRent.on( "slide", function( event, ui ) {
+        this.settings.sliderRent.on("slide", function(event, ui) {
             $("#propertiesRent .featuredProperties__wrapper").css("left", -ui.value + "px");
-        } );
+        });
         this.settings.sliderBuy.slider({
             min: 0,
             max: $("#propertiesBuy .featuredProperties__wrapper").innerWidth(),
         });
-        this.settings.sliderBuy.on( "slide", function( event, ui ) {
+        this.settings.sliderBuy.on("slide", function(event, ui) {
             $("#propertiesBuy .featuredProperties__wrapper").css("left", -ui.value + "px");
-        } );
+        });
     },
-    searchProperty: function(){
+    searchProperty: function() {
         var options = {
             url: "src/data/addresses.json",
             getValue: "name"
@@ -317,22 +317,22 @@ var lazyload = {
             .lazyLoadXT({ visibleOnly: false });
     }
 };
-$(document).ready(function(){
+$(document).ready(function() {
     $('.carousel').carousel({
-        carouselWidth:1200,
-        carouselHeight:330,
-        directionNav:true,
+        carouselWidth: 1200,
+        carouselHeight: 330,
+        directionNav: true,
         reflection: false,
-        shadow:true,
-        buttonNav:'bullets',
-        pauseOnHover:false,
-        before:function(carousel) {
+        shadow: true,
+        buttonNav: 'bullets',
+        pauseOnHover: false,
+        before: function(carousel) {
             var current = carousel.current;
             var total = carousel.length;
             $('.slidesCounter span.total').text(`${total} `)
-            $('.slidesCounter span.current').text(` ${current + 1}`) 
+            $('.slidesCounter span.current').text(` ${current + 1}`)
         }
     });
-   $('.propertyDetails__propertyInfo--gallery .slick-arrow').text('')
-    
+    $('.propertyDetails__propertyInfo--gallery .slick-arrow').text('')
+
 });

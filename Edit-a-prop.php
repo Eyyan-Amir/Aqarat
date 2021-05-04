@@ -89,6 +89,16 @@
                     <div class="form-group">
                         <label class="control-label">Property Features</label>
                         <div class="propertyFeatures grid" data-grid-item-width-md="1/3" data-grid-item-width='1/2' data-item-gap="15">
+                        <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio" checked="">
+                                    <span class="icon">
+                                        <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">Mosque</span>
+                                </label>
+                            </div>
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox" name="radio" checked="">

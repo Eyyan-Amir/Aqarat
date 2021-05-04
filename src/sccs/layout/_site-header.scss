@@ -88,7 +88,7 @@ header {
                             box-shadow: none;
                             padding: 3px;
                             padding-left: rem(20px);
-                            padding-right: rem(28px);
+                            padding-right: rem(40px);
                             width: 100%;
                             cursor: pointer;
                             background: none;
@@ -99,13 +99,13 @@ header {
                             position: absolute;
                             top: 50%;
                             transform: translateY(-50%);
-                            right: 10px;
+                            right: 20px;
                             font-size: 0;
                             opacity: 0;
                             visibility: hidden;
                             cursor: pointer;
                             &:hover {
-                                transform: translateY(-50%) rotate(180deg);
+                                opacity: .7;
                             }
                         }
                         &.search-active {

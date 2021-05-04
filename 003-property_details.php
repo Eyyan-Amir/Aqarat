@@ -78,56 +78,20 @@
                         </div>
                     </div>
                 </div>
-                <div class="propertyDetails__propertyInfo--gallery slick-instance" data-slick='{"slidesToShow": 4, 
-                    "slidesToScroll": 1,
-                    "arrows":false,
-                    "dots":false,
-                    "responsive":[
-                        {
-                            "breakpoint": 991,
-                            "settings": {
-                                "slidesToShow": 3,
-                                "slidesToScroll": 1,
-                                "arrows": true
-                            }
-                        },
-                        {
-                            "breakpoint": 767,
-                            "settings": {
-                                "slidesToShow": 2,
-                                "slidesToScroll": 1,
-                                "arrows": true
-                            }
-                        },
-                        {
-                            "breakpoint": 576,
-                            "settings": {
-                                "slidesToShow": 1,
-                                "slidesToScroll": 1,
-                                "arrows": true
-                            }
-                        }
-                    ]
-                }'>
+                <div class="propertyDetails__propertyInfo--gallery slick-instance" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "dots":false, "responsive":[{ "breakpoint": 991, "settings": { "slidesToShow": 3, "slidesToScroll": 1, "arrows": true}},{ "breakpoint": 767, "settings": { "slidesToShow": 2, "slidesToScroll": 1, "arrows": true}},{"breakpoint": 576,"settings": { "slidesToShow": 1, "slidesToScroll": 1, "arrows": true}}]}'>
                     <div class="gallery__image">
                         <img src="src/images/home-tab-four.png" alt="" class="img-fluid">
-                        <div class="gallery__image--overlay">
-                            <button type="button" data-toggle="modal" data-target="#gallery1">5 More</button>
-                        </div>
+                        <a href="#" class="abs-link"></a>
                     </div>
                     <div class="gallery__image">
                         <img src="src/images/home-tab-four.png" alt="" class="img-fluid">
-                        <div class="gallery__image--overlay">
-                             <button type="button" data-toggle="modal" data-target="#gallery1">5 More</button>
-                        </div>
+                        <a href="#" class="abs-link"></a>
                     </div>
                     <div class="gallery__image">
-                        <img src="src/images/home-tab-four.png" alt="" class="img-fluid">
-                        <div class="gallery__image--overlay">
-                             <button type="button" data-toggle="modal" data-target="#gallery1">5 More</button>
-                        </div>  
+                        <img src="src/images/home-tab-four.png" alt="" class="img-fluid"> 
+                        <a href="#" class="abs-link"></a> 
                     </div>
-                    <div class="gallery__image">
+                    <div class="gallery__image more-items">
                         <img src="src/images/home-tab-four.png" alt="" class="img-fluid">
                         <div class="gallery__image--overlay">
                              <button type="button" data-toggle="modal" data-target="#gallery1">5 More</button>
@@ -154,40 +118,40 @@
                 <div class="row">
                     <div class="col-md-6 mb-30">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-6">
                                 <span class="text-primary-light font-weight-bold">Property Size</span>
                             </div>
-                            <div class="col-7 ">
+                            <div class="col-6 ">
                                 <span class="text-gray">9600 m2</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mb-30">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-6">
                                 <span class="text-primary-light font-weight-bold">Property Category</span>
                             </div>
-                            <div class="col-7">
+                            <div class="col-6">
                                 <span class="text-gray">Offices,Parking Space</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mb-30">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-6">
                                 <span class="text-primary-light font-weight-bold">Property Type</span>
                             </div>
-                            <div class="col-7 ">
+                            <div class="col-6 ">
                                 <span class="text-gray">Offices,Parking,Apartments</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mb-30">
                         <div class="row">
-                            <div class="col-5">
+                            <div class="col-6">
                                 <span class="text-primary-light font-weight-bold">Property Sub-Category</span>
                             </div>
-                            <div class="col-7">
+                            <div class="col-6">
                                 <span class="text-gray">Offices,Parking,Apartments</span>
                             </div>
                         </div>
@@ -306,7 +270,7 @@
                     <div class="col-xl-3 col-12">
                         <h4 class="propertyDetails__details--title">Get In Touch<br/><span>Gulf Investment Co.</span></h4>
                     </div>
-                    <div class="col-xl-2 col-md-4 col-sm-6 right-border">
+                    <div class="col-xl-2 col-md-4 col-6 right-border">
                         <div class="icon_wrapper">
                             <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
@@ -318,7 +282,7 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-4 col-sm-6">
+                    <div class="col-xl-4 col-md-4 col-6">
                         <div class="icon_wrapper mx-auto">
                             <span class="icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
@@ -348,6 +312,7 @@
                     <div class="content">
                         <h2>Your <span>AD.</span></h2>
                     </div>
+                    <a href="#" target="_blank" class="abs-link"></a>
                 </div>
             </div>
         </div>
@@ -359,7 +324,7 @@
         <div class="propertyDetails__details--warning">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-12 text-md-let text-center">
+                    <div class="col-md-8 col-12 text-md-let text-center">
                         <a href="" class="warning text-danger">
                             <span>
                                 <img src="src/images/icons/danger.png" alt="" class="img-fluid">
@@ -367,7 +332,7 @@
                             <span>See Something Incorrect , Please inform us</span>
                         </a>
                     </div>
-                    <div class="col-md-6 col-12 text-md-right text-center">
+                    <div class="col-md-4 col-12 text-md-right text-center">
                         <a href="" class="btn btn-primary">Report abuse</a>
                     </div>
                 </div>
