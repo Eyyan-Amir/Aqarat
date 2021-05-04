@@ -1,8 +1,8 @@
 <?php include_once "includes/header.php";?>
-<div class="content-wrapper editProperty">
+<div class="content-wrapper editProperty"> 
     <div class="pageHead">
         <div class="container">
-            <h1>Edit Your <span>Property</span></h1>
+            <h1>Edit Your <span>Property</span></h1> 
         </div>
     </div>
     <div class="container-md">
@@ -89,7 +89,7 @@
                     <div class="form-group">
                         <label class="control-label">Property Features</label>
                         <div class="propertyFeatures grid" data-grid-item-width-md="1/3" data-grid-item-width='1/2' data-item-gap="15">
-                        <div class="checkbox">
+                            <div class="checkbox">
                                 <label>
                                     <input type="checkbox" name="radio" checked="">
                                     <span class="icon">
@@ -97,6 +97,26 @@
                                         <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
                                     </span>
                                     <span class="label">Mosque</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio" >
+                                    <span class="icon">
+                                        <img src="src/images/icons/food_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/food_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">Food Outlet</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio" >
+                                    <span class="icon">
+                                        <img src="src/images/icons/elevator_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/elevator_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">Elevator</span>
                                 </label>
                             </div>
                             <div class="checkbox">
@@ -111,42 +131,82 @@
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="radio" checked="">
+                                    <input type="checkbox" name="radio" >
                                     <span class="icon">
-                                        <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                        <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                        <img src="src/images/icons/pool_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/pool_check.png" alt="" class="checked img-fluid">
                                     </span>
-                                    <span class="label">Mosque</span>
+                                    <span class="label">Pool</span>
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="radio" checked="">
+                                    <input type="checkbox" name="radio" >
                                     <span class="icon">
-                                        <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                        <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                        <img src="src/images/icons/ballcony_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/ballcony_check.png" alt="" class="checked img-fluid">
                                     </span>
-                                    <span class="label">Mosque</span>
+                                    <span class="label">Balcony</span>
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="radio" checked="">
+                                    <input type="checkbox" name="radio">
                                     <span class="icon">
-                                        <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                        <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                        <img src="src/images/icons/garden1_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/garden1_uncheck.png" alt="" class="checked img-fluid">
                                     </span>
-                                    <span class="label">Mosque</span>
+                                    <span class="label">Garden</span>
                                 </label>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox" name="radio" checked="">
+                                    <input type="checkbox" name="radio">
                                     <span class="icon">
-                                        <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                        <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                        <img src="src/images/icons/storage_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/storage_check.png" alt="" class="checked img-fluid">
                                     </span>
-                                    <span class="label">Mosque</span>
+                                    <span class="label">Storage</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio">
+                                    <span class="icon">
+                                        <img src="src/images/icons/garden_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/garden_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">View</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio">
+                                    <span class="icon">
+                                        <img src="src/images/icons/chair_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/chair_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">Wheelchair<br>Accessible</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio">
+                                    <span class="icon">
+                                        <img src="src/images/icons/parking_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/parking_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">Parking Spot</span>
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="radio">
+                                    <span class="icon">
+                                        <img src="src/images/icons/doorman_uncheck.png" alt="" class="unchecked img-fluid">
+                                        <img src="src/images/icons/doorman_check.png" alt="" class="checked img-fluid">
+                                    </span>
+                                    <span class="label">Doorman</span>
                                 </label>
                             </div>
                         </div>
@@ -183,7 +243,7 @@
                 <div class="col-12">
                     <div class="form-group">
                         <label class="control-label">Google Map Location</label>
-                        <div class="searchAddress">
+                        <!-- <div class="searchAddress">
                             <div class="form-group mb-0">
                             <input type="text" class="form-control" placholder="Ahmad Al Jabe St">
                             </div>
@@ -192,6 +252,14 @@
                                     <use xlink:href="#search-icon-google"></use>
                                 </svg>
                             </button>
+                        </div> -->
+                        <div class="searchProperty">
+                            <div class="container">
+                                <div class="searchProperty__input">
+                                    <input type="text" class="form-control searchInput" placeholder="Ahmad Al Jabe St">
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

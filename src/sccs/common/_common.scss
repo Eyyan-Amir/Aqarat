@@ -915,22 +915,23 @@ $data-gap-list: 0,
 
 // mcustomscrool
 .mCSB_scrollTools {
-    width: 7px;
+    width: 10px;
     .mCSB_dragger {
         .mCSB_dragger_bar {
-            background-color: #a8372d !important;
-            width: 2px;
+            background-color: #1c5a84 !important;
+            width: 10px;
         }
     }
     .mCSB_draggerRail {
-        background-color: #b4b4b4 !important;
-        width: 2px;
+        background-color: #dadada !important;
+        width: 10px;
     }
 }
 
 .mCSB_draggerContainer {
-    background-color: #b4b4b4 !important;
-    width: 2px;
+    background-color: #dadada !important;
+    width: 10px;
+    border-radius: 10px;
 }
 
 // mcustomscrool

@@ -340,36 +340,132 @@
                                     <div class="col-6">
                                         <div class="checkbox">
                                             <label>
-                                                <input type="checkbox" name="Amenities">
+                                                <input type="checkbox" name="radio" >
                                                 <span class="icon">
-                                                    <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                                    <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                                    <img src="src/images/icons/food_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/food_check.png" alt="" class="checked img-fluid">
                                                 </span>
-                                                <span class="label">Mosque</span>
+                                                <span class="label">Food Outlet</span>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="checkbox">
                                             <label>
-                                                <input type="checkbox" name="Amenities">
+                                                <input type="checkbox" name="radio" >
                                                 <span class="icon">
-                                                    <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                                    <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                                    <img src="src/images/icons/elevator_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/elevator_check.png" alt="" class="checked img-fluid">
                                                 </span>
-                                                <span class="label">Mosque</span>
+                                                <span class="label">Elevator</span>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-6">
                                         <div class="checkbox">
                                             <label>
-                                                <input type="checkbox" name="Amenities">
+                                                <input type="checkbox" name="radio" checked="">
                                                 <span class="icon">
-                                                    <img src="src/images/icons/mosque_uncheck.png" alt="" class="unchecked img-fluid">
-                                                    <img src="src/images/icons/mosque_check.png" alt="" class="checked img-fluid">
+                                                    <img src="src/images/icons/office_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/office_check.png" alt="" class="checked img-fluid">
                                                 </span>
-                                                <span class="label">Mosque</span>
+                                                <span class="label">Shopping Mall</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio" >
+                                                <span class="icon">
+                                                    <img src="src/images/icons/pool_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/pool_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Pool</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio" >
+                                                <span class="icon">
+                                                    <img src="src/images/icons/ballcony_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/ballcony_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Balcony</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio">
+                                                <span class="icon">
+                                                    <img src="src/images/icons/garden1_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/garden1_uncheck.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Garden</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio">
+                                                <span class="icon">
+                                                    <img src="src/images/icons/storage_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/storage_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Storage</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio">
+                                                <span class="icon">
+                                                    <img src="src/images/icons/garden_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/garden_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">View</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio">
+                                                <span class="icon">
+                                                    <img src="src/images/icons/chair_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/chair_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Wheelchair<br>Accessible</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio">
+                                                <span class="icon">
+                                                    <img src="src/images/icons/parking_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/parking_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Parking Spot</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="radio">
+                                                <span class="icon">
+                                                    <img src="src/images/icons/doorman_uncheck.png" alt="" class="unchecked img-fluid">
+                                                    <img src="src/images/icons/doorman_check.png" alt="" class="checked img-fluid">
+                                                </span>
+                                                <span class="label">Doorman</span>
                                             </label>
                                         </div>
                                     </div>

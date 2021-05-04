@@ -1,8 +1,17 @@
 <?php include_once "includes/header.php";?>
 <div class="content-wrapper agent-listing">
     <div class="pageHead">
-        <div class="container">
-            <h1>Get In touch<span> Wth an Agent</span></h1>
+        <div class="container"> 
+            <div class="d-flex align-items-center">
+                <h1>Get In touch<span> Wth an Agent</span></h1>
+                <div class="search">
+                    <form >
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Agent Name.....">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container">
