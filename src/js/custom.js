@@ -54,19 +54,19 @@ var aqarat = {
             // if($(window).width() > 767){
 
             // }
-            if ($(this).scrollTop() > 250) {
+            if ($(this).scrollTop() > 150) {
                 $("header").addClass("sticky");
             } else {
                 $("header").removeClass("sticky");
             }
         });
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 60) {
-                $('.dashboard__left').addClass("sticky");
-            } else {
-                $('.dashboard__left').removeClass("sticky");
-            }
-        });
+        // $(window).scroll(function() {
+        //     if ($(this).scrollTop() > 60) {
+        //         $('.dashboard__left').addClass("sticky");
+        //     } else {
+        //         $('.dashboard__left').removeClass("sticky");
+        //     }
+        // });
     },
     datepickers: function() {
         this.settings.timepicker.datetimepicker({

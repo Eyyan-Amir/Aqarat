@@ -6,6 +6,19 @@ header {
     width: 100%;
     transition: all 0.5s;
     position: relative;
+    @media screen and (min-width: 992px) {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 999;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        &.sticky {
+            height: 90px;
+            border-bottom: 1px solid $default;
+        }
+    }
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
     }
@@ -250,6 +263,12 @@ header {
             margin: 0 0 rem(16px) 0;
             padding: 0;
         }
+    }
+}
+
+body {
+    @media screen and (min-width: 992px) {
+        padding-top: 111px;
     }
 }
 
