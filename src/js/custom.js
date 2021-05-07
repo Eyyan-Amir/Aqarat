@@ -136,11 +136,11 @@ var aqarat = {
             e.preventDefault();
             $("li.search form").removeClass("search-active");
         });
-        $(".toggler-filter").on("click", function(e) {
-            if ($(window).width() <= 991) {
+        $(".toggle-filter-btn ").on("click", function(e) {
+            if ($(window).width() <= 768) {
                 $(".toggler-filter .nav-tabs").slideToggle();
                 var title = $(this).text();
-                $(".toggle-filter-btn").text(title);
+                $(".toggle-filter-btn ").text(title);
             }
         });
     },

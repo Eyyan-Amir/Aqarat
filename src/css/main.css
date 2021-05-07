@@ -1067,17 +1067,12 @@ form {
     .form-group .fields-group .form-control:first-child {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
-      width: 20%; }
-      @media screen and (max-width: 575px) {
-        .form-group .fields-group .form-control:first-child {
-          width: 27%; } }
+      width: 90px;
+      margin-right: 8px; }
     .form-group .fields-group .form-control:last-child {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
-      width: 77%; }
-      @media screen and (max-width: 575px) {
-        .form-group .fields-group .form-control:last-child {
-          width: 70%; } }
+      flex: 1; }
   .form-group .field-icon {
     position: relative; }
     .form-group .field-icon span.icon {
@@ -1685,6 +1680,9 @@ form {
 
 .mt-15 {
   margin-top: 0.9375rem; }
+
+.ml-15 {
+  margin-left: 15px; }
 
 .accordion .card {
   border-radius: 16px !important;
@@ -2894,7 +2892,8 @@ header {
         transform: translateY(-50%); }
     header .btn-group .btn {
       font-size: 1.125rem;
-      padding: 1.375rem 1.5625rem; }
+      padding: 1.375rem 1.5625rem;
+      font-weight: normal; }
   header .menu-icon {
     position: relative;
     cursor: pointer;
@@ -4192,23 +4191,37 @@ h3.sectionTitle {
     margin-top: 0px; }
   .editProperty .searchProperty {
     padding-bottom: 0;
-    background: transparent; }
+    background: transparent;
+    z-index: 100; }
     .editProperty .searchProperty:after, .editProperty .searchProperty:before {
       display: none; }
     .editProperty .searchProperty__input {
-      max-width: 250px;
+      max-width: 485px;
       margin: unset; }
       .editProperty .searchProperty__input:before {
-        display: none; }
+        background-image: url(../images/icons/search-icon.png);
+        right: 1.5625rem;
+        left: auto;
+        width: 19px;
+        height: 19px; }
+      .editProperty .searchProperty__input .easy-autocomplete-container ul {
+        background: white;
+        border: 1px solid #d2d2d2;
+        border-radius: 25px; }
+        .editProperty .searchProperty__input .easy-autocomplete-container ul li {
+          padding-top: 10px;
+          padding-bottom: 10px; }
       .editProperty .searchProperty__input .form-control {
         border: 1px solid #d2d2d2;
         padding: 0 0.625rem 0 1.5625rem;
         height: 48px;
-        font-size: 1.125rem;
-        color: #1c5a84;
-        background-color: transparent;
+        font-size: 1rem;
+        color: #005e86;
+        background-color: #ffffff;
         border-radius: 30px;
-        font-weight: 600; }
+        font-weight: normal;
+        box-shadow: unset;
+        padding-right: 3.125rem; }
 
 .search-results {
   padding-bottom: unset; }
@@ -4934,7 +4947,8 @@ h3.sectionTitle {
       box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.5);
       background-size: 25px 25px;
       width: 45px;
-      height: 45px; }
+      height: 45px;
+      font-size: 0; }
       @media screen and (max-width: 575px) {
         .propertyDetails__propertyInfo--gallery .slick-arrow {
           width: 40px;

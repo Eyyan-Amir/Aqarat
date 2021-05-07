@@ -6,6 +6,7 @@ export const pb-#$item}: StyleProp<TextStyle>
 export const pt-#$item}: StyleProp<TextStyle>
 export const col-gap-#$item}: StyleProp<TextStyle>
 export const col-gap-#$item}>div: StyleProp<TextStyle>
+export const container-md: StyleProp<TextStyle>
 export const grid: StyleProp<TextStyle>
 export const card: StyleProp<TextStyle>
 export const card-body: StyleProp<TextStyle>
@@ -18,6 +19,7 @@ export const dz-preview: StyleProp<TextStyle>
 export const dz-image: StyleProp<TextStyle>
 export const mb-35: StyleProp<TextStyle>
 export const mt-15: StyleProp<TextStyle>
+export const ml-15: StyleProp<TextStyle>
 export const accordion: StyleProp<TextStyle>
 export const card__header: StyleProp<TextStyle>
 export const collapsed: StyleProp<TextStyle>
@@ -25,7 +27,12 @@ export const abs-link: StyleProp<TextStyle>
 export const table: StyleProp<TextStyle>
 export const sm: StyleProp<TextStyle>
 export const action-btns: StyleProp<TextStyle>
-export const download: StyleProp<TextStyle>
+export const delete: StyleProp<TextStyle>
+export const status: StyleProp<TextStyle>
+export const green: StyleProp<TextStyle>
+export const blue: StyleProp<TextStyle>
+export const red: StyleProp<TextStyle>
+export const darkblue: StyleProp<TextStyle>
 export const b-0: StyleProp<TextStyle>
 export const nav__tabs: StyleProp<TextStyle>
 export const active: StyleProp<TextStyle>
@@ -47,7 +54,6 @@ export const mCSB_dragger_bar: StyleProp<TextStyle>
 export const mCSB_draggerRail: StyleProp<TextStyle>
 export const mCSB_draggerContainer: StyleProp<TextStyle>
 export const screen__images: StyleProp<TextStyle>
-export const delete: StyleProp<TextStyle>
 export const bootstrap-datetimepicker-widget: StyleProp<TextStyle>
 export const row: StyleProp<TextStyle>
 export const col-md-6: StyleProp<TextStyle>
@@ -59,6 +65,3 @@ export const datepicker: StyleProp<TextStyle>
 export const activedisabled:hover: StyleProp<TextStyle>
 export const next: StyleProp<TextStyle>
 export const loadmore: StyleProp<TextStyle>
-export const show: StyleProp<TextStyle>
-export const animate: StyleProp<TextStyle>
-export const slideIn: StyleProp<TextStyle>

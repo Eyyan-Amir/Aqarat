@@ -10,7 +10,7 @@
         <form>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="form-group">
+                    <div class="form-group"> 
                         <input type="text" class="form-control" placeholder="Property Name (English)">
                     </div>
                 </div>
@@ -21,7 +21,18 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Property Name (English)">
+                        <label class="control-label">Property Type </label>
+                        <div>
+                            <select class="selectpicker" title="Office">
+                                <option>Appartment</option>
+                                <option>Appartment</option>
+                                <option>Appartment</option>
+                                <option>Appartment</option>
+                                <option>Appartment</option>
+                                <option>Appartment</option>
+                                <option>Appartment</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-12">
@@ -325,7 +336,7 @@
                 </div>
             </div>
             <div class="col-sm-12">
-                <div class="form-group">
+                <div class="form-group ml-15">
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" name="activate" checked="">
@@ -334,66 +345,34 @@
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6">
+                <div class="form-group type-file">
+                    <label class="control-label">Leasing Terms</label>
+                    <div class="file-wrapper">
+                        <input type="file" class="form-control" name="file">
+                    </div>
+                    <div class="file-name">
+                        <span class="file_name"></span>
+                        <span class="cross">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+                                <use xlink:href="#cross"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="white-bg pt-30 pb-30">
+    <div class="white-bg pt-30">
         <div class="container-md">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3>Property Allocation Details 
-                        <span>for your use only</span>
-                    </h3>
-                    <div class="form-group">
-                        <label class="control-label">Status</label>
-                        <select class="selectpicker">
-                            <option>In Review</option>
-                            <option>In Review</option>
-                            <option>In Review</option>
-                            <option>In Review</option>
-                            <option>In Review</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <div class="has-label">
-                            <input type="text" class="form-control" placeholder="Deal Price">
-                            <span class="info-label">KD</span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="has-label">
-                            <input type="text" class="form-control datetimepicker-input" readonly id="datepicker" name="name" data-target="#datepicker" data-toggle="datetimepicker" placeholder="20/11/2019">
-							<span class="icon-date"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" placeholder="Notes"></textarea>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h3>Client Details 
-                        <span>for your use only</span>
-                    </h3>
-                    <div class="form-group">
-                        <label class="control-label">&nbsp;</label>
-                        <input type="text" class="form-control" placeholder="Client Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Client Contact">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Client Email">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" placeholder="Client Address"></textarea>
+            <div class="row justify-content-center">
+                <div class="col-sm-8">
+                    <div class="button-row">
+                        <button class="btn btn-secondary btn-lg w-100">add Properties</button>
                     </div>
                 </div>
             </div>
-            <div class="button-row">
-                <div class="inline-btn">
-                    <button class="btn btn-secondary btn-lg">update</button>
-                    <button class="btn btn-cancel btn-lg">cancel</button>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
