@@ -565,7 +565,7 @@ body {
   border-radius: 10px;
   transition: all 0.5s ease;
   color: #fff;
-  padding: 0.9375rem 4.375rem;
+  padding: 1.125rem 4.6875rem;
   font-family: "Raleway", sans-serif;
   vertical-align: middle;
   position: relative;
@@ -596,15 +596,17 @@ body {
     .btn .btn-primary:focus.bold,
     .btn .btn-primary:active.bold {
       font-weight: 700; }
-    .btn.btn-primary:not(:disabled):hover, .btn.btn-primary:focus, .btn.btn-primary:active,
+    .btn.btn-primary:not(:disabled):hover,
     .btn .btn-primary:focus:not(:disabled):hover,
-    .btn .btn-primary:focus:focus,
-    .btn .btn-primary:focus:active,
-    .btn .btn-primary:active:not(:disabled):hover,
-    .btn .btn-primary:active:focus,
-    .btn .btn-primary:active:active {
+    .btn .btn-primary:active:not(:disabled):hover {
       background: var(--secondary) !important;
       color: #fff !important; }
+    .btn.btn-primary:not(:disabled):active, .btn.btn-primary:not(:disabled):focus,
+    .btn .btn-primary:focus:not(:disabled):active,
+    .btn .btn-primary:focus:not(:disabled):focus,
+    .btn .btn-primary:active:not(:disabled):active,
+    .btn .btn-primary:active:not(:disabled):focus {
+      background: var(--primary) !important; }
     .btn.btn-primary.big,
     .btn .btn-primary:focus.big,
     .btn .btn-primary:active.big {
@@ -2494,13 +2496,15 @@ form {
   .modal .dropdown {
     padding: unset;
     border: unset; }
-  .modal .button-row button {
+  .modal .button-row .btn {
     padding-left: 4.375rem;
     padding-right: 4.375rem;
     font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: bold;
     max-width: unset; }
+    .modal .button-row .btn.btn-secondary:hover {
+      background: #0365c4 !important; }
   .modal .form-group {
     margin-bottom: 1.25rem; }
     .modal .form-group + div {
@@ -2759,11 +2763,11 @@ header {
       top: 0px;
       left: 0px;
       z-index: 999;
-      height: 110px;
+      height: 8.75rem;
       display: flex;
       align-items: center; }
       header.sticky {
-        height: 90px;
+        height: 5.625rem;
         border-bottom: 1px solid #303030; } }
   header .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
@@ -2948,7 +2952,7 @@ header {
 
 @media screen and (min-width: 992px) {
   body {
-    padding-top: 111px; } }
+    padding-top: 8.75rem; } }
 
 @media screen and (max-width: 991px) {
   .show-on-lg {

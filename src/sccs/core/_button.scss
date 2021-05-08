@@ -32,7 +32,7 @@
     border-radius: 10px;
     transition: all 0.5s ease;
     color: #fff;
-    padding: rem(15px) rem(70px);
+    padding: rem(18px) rem(75px);
     font-family: $primary-font-b;
     vertical-align: middle;
     position: relative;
@@ -66,17 +66,18 @@
         &.bold {
             font-weight: 700;
         }
-        &:not(:disabled):hover,
-        &:focus,
-        &:active {
+        &:not(:disabled):hover
+        {
             // box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.1);
             background: var(--secondary) !important;
             color: #fff !important;
         }
-        // &:not(:disabled):active {
-        //     background: var(--primary) !important;
-        //     border: 0;
-        // }
+        &:not(:disabled):active,&:not(:disabled):focus
+        {
+            // box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.1);
+            background: var(--primary) !important;
+        }
+       
         &.big {
             padding: rem(15px) rem(45px);
             max-width: 200px;

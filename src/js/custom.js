@@ -143,6 +143,11 @@ var aqarat = {
                 $(".toggle-filter-btn ").text(title);
             }
         });
+        $(document).on('hidden.bs.modal', function (event) {
+            if ($('.modal:visible').length) {
+                $('body').addClass('modal-open');
+            }
+        });
     },
     uploadControls: function() {
         $(document).on("change", '.file-wrapper input[type="file"]', function(e) {

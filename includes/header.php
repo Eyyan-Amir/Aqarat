@@ -101,8 +101,8 @@
                 </ul>
                 <div class="d-flex align-items-center">
                     <div class="btn-group" role="group">
-                        <a href="#" class="btn btn-primary">LOG IN</a>
-                        <a href="#" class="btn btn-primary">register</a>
+                        <a href="#" data-toggle="modal" data-target="#signIn" class="btn btn-primary">LOG IN</a>
+                        <a href="#" data-toggle="modal" data-target="#register" class="btn btn-primary">register</a>
                     </div>
                     <div class="menu-icon cd-menu-trigger show-on-lg">
                         <span></span>

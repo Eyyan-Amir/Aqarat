@@ -11,11 +11,11 @@ header {
         top: 0px;
         left: 0px;
         z-index: 999;
-        height: 110px;
+        height: rem(140px);
         display: flex;
         align-items: center;
         &.sticky {
-            height: 90px;
+            height: rem(90px);
             border-bottom: 1px solid $default;
         }
     }
@@ -269,7 +269,7 @@ header {
 
 body {
     @media screen and (min-width: 992px) {
-        padding-top: 111px;
+        padding-top: rem(140px);
     }
 }
 

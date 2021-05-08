@@ -12,7 +12,7 @@
                     <div class="registerTypes">
                         <div class="registerTypes__item">
                             <div class="registerTypes__item--icon">
-                                <a href="#">
+                                <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#registerland">
                                     <svg fill="currentColor" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
                                         <use xlink:href="#landlord"></use>
                                     </svg>
@@ -22,7 +22,7 @@
                         </div>
                         <div class="registerTypes__item">
                             <div class="registerTypes__item--icon">
-                                <a href="#">
+                                <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#registerInd">
                                     <svg fill="currentColor" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
                                             <use xlink:href="#house-icon"></use>
                                     </svg>
@@ -31,39 +31,11 @@
                             <p class="registerTypes__item--title">I’m an Individual</p>
                         </div>
                     </div>
-                    <!-- <div class="d-flex">
-                        <button class="w-md-50 flex-items text-align-center">
-                            <div class="circle-parent">
-                                <div class="upper_circle">
-                                    <div class="icon">
-                                        
-                                    </div>
-                                </div>
-                                <div class="label">
-                                    Are you a landlord/Industry professional?
-                                </div>
-                            </div>
-                        </button>
-                        <button class="w-md-50 flex-items text-align-center">
-                            <div class="circle-parent">
-                                <div class="upper_circle">
-                                    <div class="icon">
-                                        <svg fill="currentColor" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
-                                            
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="label">
-                                    I’m an Individual
-                                </div>
-                            </div>
-                        </button>
-                        
-                    </div>     -->
+                    
 
                 </div>
                 <div class="modal-footer">
-                    <p class="mx-auto">Already have account? <a href="">sign in</a></p>
+                    <p class="mx-auto">Already have account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signIn">sign in</a></p>
                 </div>
             </div>
         </div>
@@ -138,7 +110,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <a href=""><i>forget password?</i></a>
+                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#forgetPassword"><i>forget password?</i></a>
                 </div>
             </div>
         </div>
@@ -310,54 +282,10 @@
 
  <!-- // abuse Modal -->
 
-    <div class="modal fade" id="abuseModal" tabindex="-1" role="dialog" aria-labelledby="abuseModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span class="modal-title"></span>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                    <label class="control-label">Reason for Abuse</label>
-                    <div>
-                        <select class="selectpicker form-control">
-                            <option>False Company</option>
-                            <option>2 Week</option>
-                            <option>3 Week</option>
-                            <option>4 Week</option>
-                            <option>5 Week</option>
-                            <option>6 Week</option>
-                            <option>7 Week</option>
-                            <option>8 Week</option>
-                            <option>9 Week</option>
-                            <option>10 Week</option>
-                            <option>1 Year</option>
-                            <option>2 Year</option>
-                            <option>3 Year</option>
-                        </select>
-                    </div>
-                </div>
-                    <div class="button-row">
-                        <button class="btn btn-danger ">
-                            Report Abuse
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     
-    <div class="modal fade" id="done" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
+    <div class="modal fade" id="regCompleted" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
