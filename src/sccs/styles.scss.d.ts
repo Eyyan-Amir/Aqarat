@@ -23,6 +23,7 @@ export const registerTypes__item: StyleProp<TextStyle>
 export const registerTypes__item--icon: StyleProp<TextStyle>
 export const flex-items: StyleProp<TextStyle>
 export const upper_circle: StyleProp<TextStyle>
+export const btnbtn-secondary: StyleProp<TextStyle>
 export const uploadFile__item: StyleProp<TextStyle>
 export const imageAdd: StyleProp<TextStyle>
 export const properties: StyleProp<TextStyle>

@@ -2458,6 +2458,9 @@ form {
 .slick-hidden {
   display: none !important; }
 
+.slick-arrow {
+  font-size: 0; }
+
 /* Loaded styles */
 .pre-loader-wrapper {
   position: fixed;
@@ -2515,6 +2518,9 @@ form {
     width: 25%;
     margin: unset;
     padding: unset; }
+    @media screen and (max-width: 575px) {
+      .modal .fields-group .form-control:first-child {
+        width: 30%; } }
     .modal .fields-group .form-control:first-child select {
       margin: unset; }
     .modal .fields-group .form-control:first-child .dropdown-toggle {
@@ -3840,7 +3846,7 @@ h3.sectionTitle {
   border: unset; }
   #registerland select {
     margin: unset; }
-  #registerland button {
+  #registerland .btn.btn-secondary {
     height: 48px;
     border: none; }
   #registerland .uploadFile__item {

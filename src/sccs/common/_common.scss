@@ -1295,6 +1295,10 @@ $data-gap-list: 0,
     display: none !important;
 }
 
+.slick-arrow {
+    font-size: 0;
+}
+
 
 /* Loaded styles */
 
@@ -1352,8 +1356,8 @@ $data-gap-list: 0,
             text-transform: uppercase;
             font-weight: bold;
             max-width: unset;
-            &.btn-secondary{
-                &:hover{
+            &.btn-secondary {
+                &:hover {
                     background: #0365c4 !important;
                 }
             }
@@ -1374,6 +1378,9 @@ $data-gap-list: 0,
                 width: 25%;
                 margin: unset;
                 padding: unset;
+                @media screen and (max-width: 575px) {
+                    width: 30%;
+                }
                 select {
                     margin: unset;
                 }
