@@ -16,7 +16,7 @@
                 <form>
                     <div class="form-group">
                         <div class="uploadFile__item">
-                            <div class="uploadFile__item--file" data-label="edit">
+                            <div class="uploadFile__item--file" data-label="add">
                                 <input type="file" name="file">
                                 <div class="uploadFile__item--image">
                                     <img src="src/images/dash_organization_img.png" alt = ''>

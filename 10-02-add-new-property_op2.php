@@ -2,7 +2,7 @@
 <div class="content-wrapper editProperty"> 
     <div class="pageHead">
         <div class="container">
-            <h1>Edit Your <span>Property</span></h1> 
+            <h1>Add Your <span>Property</span></h1> 
         </div>
     </div>
     <div class="container-md">
