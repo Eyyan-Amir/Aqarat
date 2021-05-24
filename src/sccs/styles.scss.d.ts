@@ -123,4 +123,5 @@ export const tab-content: StyleProp<TextStyle>
 export const agent: StyleProp<TextStyle>
 export const toggler-filter: StyleProp<TextStyle>
 export const toggle-filter-btn: StyleProp<TextStyle>
+export const tab-active: StyleProp<TextStyle>
 export const card-wrapper>div: StyleProp<TextStyle>
