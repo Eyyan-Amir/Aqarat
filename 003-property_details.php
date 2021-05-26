@@ -381,6 +381,9 @@
                         </select>
                     </div>
                 </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Comments"></textarea>
+                </div>
                 <div class="button-row">
                     <button class="btn btn-danger ">
                         Report Abuse

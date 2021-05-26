@@ -21,15 +21,22 @@
                 </div>
             </div>
         </div>
-        <div class="card-wrapper row">
-            <div class="col-sm-6">
+        <div class="card-wrapper row justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-4">
                 <div class="card">
                     <h3 class="card-title">Register with Us</h3>
                     <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores consectetur nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores consectetur nam! </p>
                     <a href="" class="btn btn-primary card-button">Start Now</a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card">
+                    <h3 class="card-title">Agent Registration</h3>
+                    <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores consectetur nam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores consectetur nam! </p>
+                    <a href="#" class="btn btn-primary card-button" data-toggle="modal" data-target="#registeragent">Start Now</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-4">
                 <div class="card">
                     <h3 class="card-title">Register with Us</h3>
                     <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores consectetur nam! </p>

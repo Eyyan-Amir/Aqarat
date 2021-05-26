@@ -3718,7 +3718,8 @@ h3.sectionTitle {
   background: #c20a0a; }
 
 .modal-backdrop.show {
-  background: transparent; }
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1; }
 
 #registerland .modal-body {
   padding-top: unset; }
@@ -3847,42 +3848,43 @@ h3.sectionTitle {
   #registerland .btn.btn-secondary {
     height: 48px;
     border: none; }
-  #registerland .uploadFile__item {
-    width: 120px;
-    height: 120px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    position: relative; }
-    #registerland .uploadFile__item::before {
-      content: attr(data-text);
-      position: absolute;
-      top: 0;
-      left: 0;
-      color: #d2d2d2;
-      font-weight: bold;
-      text-transform: uppercase;
-      top: 64%;
-      width: 100%;
-      text-align: center;
-      font-size: 14px; }
-    #registerland .uploadFile__item--file {
-      border-radius: 50%;
-      overflow: unset; }
-      #registerland .uploadFile__item--file::before {
-        content: unset; }
-      #registerland .uploadFile__item--file::after {
-        z-index: 1;
-        top: 40%; }
-      #registerland .uploadFile__item--file.imageAdd::after {
-        z-index: -1; }
-    #registerland .uploadFile__item--image {
-      overflow: hidden;
-      width: 100%;
-      height: 100%;
-      border-radius: 50%; }
-      #registerland .uploadFile__item--image span.delete {
-        right: -7px; }
+
+.registerModal .uploadFile__item {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  position: relative; }
+  .registerModal .uploadFile__item::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #d2d2d2;
+    font-weight: bold;
+    text-transform: uppercase;
+    top: 64%;
+    width: 100%;
+    text-align: center;
+    font-size: 14px; }
+  .registerModal .uploadFile__item--file {
+    border-radius: 50%;
+    overflow: unset; }
+    .registerModal .uploadFile__item--file::before {
+      content: unset; }
+    .registerModal .uploadFile__item--file::after {
+      z-index: 1;
+      top: 40%; }
+    .registerModal .uploadFile__item--file.imageAdd::after {
+      z-index: -1; }
+  .registerModal .uploadFile__item--image {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%; }
+    .registerModal .uploadFile__item--image span.delete {
+      right: -7px; }
 
 @media screen and (max-width: 575px) {
   .properties .property__item {
@@ -4444,10 +4446,11 @@ h3.sectionTitle {
     text-align: left; }
   .sell-page .card-wrapper {
     margin-top: 3.75rem;
-    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3.75rem; }
+    margin-bottom: 2.5rem; }
+    .sell-page .card-wrapper > div {
+      margin-bottom: 1.25rem; }
     @media screen and (max-width: 767px) {
       .sell-page .card-wrapper {
         margin-bottom: 0; } }

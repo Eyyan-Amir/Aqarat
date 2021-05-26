@@ -144,21 +144,20 @@
                         <div class="fields-group">
                             <!-- <input type="text" value="+965" class="form-control font-weight-bold" placeholder="Height"> -->
                             <select class="selectpicker form-control">
-                                <option>1 Week</option>
-                                <option>2 Week</option>
-                                <option>3 Week</option>
-                                <option>4 Week</option>
-                                <option>5 Week</option>
-                                <option>6 Week</option>
-                                <option>7 Week</option>
-                                <option>8 Week</option>
-                                <option>9 Week</option>
-                                <option>10 Week</option>
-                                <option>1 Year</option>
-                                <option>2 Year</option>
-                                <option>3 Year</option>
+                            <select class="selectpicker form-control" title="Code">
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                </select>
                             </select>
-                            <input type="text" class="form-control" placeholder="Phone Number">
+                            <input type="tel" class="form-control" placeholder="Phone Number">
                         </div>
                     </div>
                     <div class="form-group">
@@ -196,7 +195,7 @@
     </div>
 
 
-    <div class="modal fade" id="registerland" tabindex="-1" role="dialog" aria-labelledby="registerland" aria-hidden="true">
+    <div class="modal fade" id="registerland registerModal" tabindex="-1" role="dialog" aria-labelledby="registerland" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -248,27 +247,81 @@
                         <div class="form-group">
                             <div class="fields-group">
                                 <!-- <input type="text" value="+965" class="form-control font-weight-bold" placeholder="Height"> -->
-                                <select class="selectpicker form-control">
-                                    <option>1 Week</option>
-                                    <option>2 Week</option>
-                                    <option>3 Week</option>
-                                    <option>4 Week</option>
-                                    <option>5 Week</option>
-                                    <option>6 Week</option>
-                                    <option>7 Week</option>
-                                    <option>8 Week</option>
-                                    <option>9 Week</option>
-                                    <option>10 Week</option>
-                                    <option>1 Year</option>
-                                    <option>2 Year</option>
-                                    <option>3 Year</option>
+                                <select class="selectpicker form-control" title="Code">
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
                                 </select>
-                                <input type="text" class="form-control" placeholder="Phone Number">
+                                <input type="tel" class="form-control" placeholder="Phone Number">
                             </div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" placeholder="Business Address"></textarea>
                         </div>
+                        <div class="button-row">
+                            <button class="btn btn-secondary ">
+                                submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade registerModal" id="registeragent" tabindex="-1" role="dialog" aria-labelledby="registeragent" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Registration <span>(Agent)</span></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <div class="uploadFile__item" data-text="add logo">
+                            <div class="uploadFile__item--file">
+                                <input type="file" name="file">
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Company Name / Tagline">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email ID">
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="fields-group">
+                                <!-- <input type="text" value="+965" class="form-control font-weight-bold" placeholder="Height"> -->
+                                <select class="selectpicker form-control" title="Code">
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                    <option>+965</option>
+                                </select>
+                                <input type="tel" class="form-control" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        
                         <div class="button-row">
                             <button class="btn btn-secondary ">
                                 submit
