@@ -195,7 +195,7 @@
     </div>
 
 
-    <div class="modal fade" id="registerland registerModal" tabindex="-1" role="dialog" aria-labelledby="registerland" aria-hidden="true">
+    <div class="modal fade registerModal" id="registerland"  tabindex="-1" role="dialog" aria-labelledby="registerland" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -205,12 +205,14 @@
                     </button>
                 </div>
                 <div class="modal-body">
+                        
                         <div class="uploadFile__item" data-text="add logo">
                             <div class="uploadFile__item--file">
                                 <input type="file" name="file">
                             </div>
                             
                         </div>
+                        
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Business Name">
                         </div>
