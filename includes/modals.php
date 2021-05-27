@@ -143,7 +143,7 @@
                     <div class="form-group">
                         <div class="fields-group">
                             <!-- <input type="text" value="+965" class="form-control font-weight-bold" placeholder="Height"> -->
-                            <select class="selectpicker form-control">
+                            
                             <select class="selectpicker form-control" title="Code">
                                     <option>+965</option>
                                     <option>+965</option>
