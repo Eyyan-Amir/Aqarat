@@ -2180,6 +2180,11 @@ h3.sectionTitle {
 
 .propertyListing {
     background: #fff;
+    padding-bottom: 0;
+    overflow-y: hidden;
+    .propertyFeatures{
+        padding: 0;
+    }
     .pageHead {
         margin-bottom: 0;
         padding: rem(32px) 0;
@@ -2276,11 +2281,12 @@ h3.sectionTitle {
         left: 0;
         top: 0;
         width: 115px;
-        height: calc(100% + 25px);
+        height: calc(100%);
         background: #f2f7ff;
         padding-top: rem(20px);
         transition: all 0.5s ease;
         z-index: 2;
+        box-shadow: 0 0 8px rgba(0,0,0,0.2);
         &--icon {
             @include flex(center,
             center);
@@ -2352,14 +2358,16 @@ h3.sectionTitle {
     }
     &__wrapper {
         position: relative;
-        padding-top: rem(45px);
+        padding-top: rem(0px);
         .grid {
             row-gap: rem(45px);
         }
+        #propertyListing{
+            padding-top: rem(45px);
+        }
     }
     .map {
-        margin-bottom: rem(35px);
-        height: 400px;
+        // margin-bottom: rem(35px);
         position: relative;
         &:before {
             position: absolute;
@@ -2418,6 +2426,40 @@ h3.sectionTitle {
             left: 0;
         }
     }
+    .mapListings{
+        display:grid;
+        grid-template-columns: 585px 1fr;
+        padding-left: 115px;
+        &__list{
+            // flex: 0 0 655px;
+            // max-width: 655px;
+            background:#f2f7ff;
+            padding: rem(30px) rem(15px) rem(25px) rem(15px);
+            
+            &--count{
+                color:#0082ff;
+                font-size: rem(20px);
+                font-weight: 600;
+                padding-bottom: rem(25px);
+            }
+            .inner-scroll{
+                max-height: 900px;
+            }
+            .properties .property__item--image .overlay .btn{
+                padding: rem(12px) rem(25px);
+            }
+        }
+        &__map{
+            flex: 1;
+            .map{
+                height: 100%;
+                iframe{
+                    height: 100%;
+                }
+            }
+        }
+    }
+
     @media screen and (max-width: 1500px) {
         .tab-content {
             padding-left: rem(50px);

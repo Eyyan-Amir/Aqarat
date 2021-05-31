@@ -3,154 +3,73 @@ var markers = [];
 var allmarkers = [];
 var CustomMarker;
 var fscreens = [];
-var screens =
+var properties =
 [
     {
-        "id": "1",
-        "screen_title": "Salem Al Mubarak st. & Qatar St. Intersection",
-        "screen_address": "some dummy address goes here",
         "address_lat": "29.336607",
-        "address_log": "48.071198",
-        "address_governate": "Jahra",
-        "address_area": "Hawally",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "48.071198",
     },
     {
-        "id": "2",
-        "screen_title": "Salem Al Mubarak st",
-        "screen_address": "test2",
         "address_lat": "29.330889",
-        "address_log": "48.080055",
-        "address_governate": "Jahra",
-        "address_area": "Hawally",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "48.080055",
     },
     {
-        "id": "3",
-        "screen_title": "Salem Al Mubarak st Al Khansa St, Salmiya, Kuwait",
-        "screen_address": "test3",
         "address_lat": "29.327720",
-        "address_log": "48.067499",
-        "address_governate": "Jahra",
-        "address_area": "Kuwait City",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "48.067499",
     },
     {
-        "id": "4",
-        "screen_title": "Al Jahra Governorate, Kuwait",
-        "screen_address": "test4",
         "address_lat": "29.100573",
-        "address_log": "46.684954",
-        "address_governate": "Ahmadi",
-        "address_area": "Dasmān",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "46.684954",
     },
     {
-        "id": "5",
-        "screen_title": "Salem",
-        "screen_address": "test5",
         "address_lat": "29.319750",
-        "address_log": "48.028570",
-        "address_governate": "Ahmadi",
-        "address_area": "Dasmān",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "48.028570",
     },
     {
-        "id": "6",
-        "screen_title": "Salem Al Mubarak st. & Qatar St. Intersection 2",
-        "screen_address": "Grand Cinemas",
         "address_lat": "29.312670",
-        "address_log": "48.070740",
-        "address_governate": "Mubarak Al-Kabeer",
-        "address_area": "Dasmān",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "48.070740",
     },
     {
-        "id": "7",
-        "screen_title": "Al Jahra Governorate - Screen, Kuwait",
-        "screen_address": "Al Jahra Governorate, Kuwait",
         "address_lat": "29.3848269",
-        "address_log": "47.9819575",
-        "address_governate": "Farwaniya",
-        "address_area": "Sharq",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "47.9819575",
     },
     {
-        "id": "8",
-        "screen_title": "Shuwaikh Educational, Kuwait",
-        "screen_address": "Stage theater",
         "address_lat": "29.348261",
-        "address_log": "47.909475",
-        "address_governate": "Farwaniya",
-        "address_area": "Sharq",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "47.909475",
     },
     {
-        "id": "9",
-        "screen_title": "5, Kuwait",
-        "screen_address": "group theater",
         "address_lat": "29.296162",
-        "address_log": "47.863937",
-        "address_governate": "Farwaniya",
-        "address_area": "Jibla",
-        "screen_dimenssion": "W 13m by H 6m",
-        "screen_cars": "85000 cars per day",
-        "screen_detail": "lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy text lorem isprum dummy textlorem isprum dummy text lorem isprum dummy textlorem isprum dummy text",
-        "detail_url": "src/data/screen-detail.html",
+        "address_long": "47.863937",
     },
 ];
-document.getElementById("flter_map_listing").addEventListener("click", filterListing);
+// document.getElementById("flter_map_listing").addEventListener("click", filterListing);
 
-var g = document.getElementById("governate");
-var governate = g.options[g.selectedIndex].value;
-var a = document.getElementById("area");
-var area = a.options[a.selectedIndex].value;
-fscreens = screens;
-if(governate!=0 || area!=0){
-    fscreens = screens.filter(function (el) {
-        return el.address_governate == governate || el.address_area==area;
-    });
-}
+// var g = document.getElementById("governate");
+// var governate = g.options[g.selectedIndex].value;
+// var a = document.getElementById("area");
+// var area = a.options[a.selectedIndex].value;
+// fscreens = properties;
+// if(governate!=0 || area!=0){
+//     fscreens = screens.filter(function (el) {
+//         return el.address_governate == governate || el.address_area==area;
+//     });
+// }
 
 function initMap() {
     mapcenter = { lat: 29.3761015, lng: 47.9643572 };
     map = new google.maps.Map(
     document.getElementById('map'), { zoom: 11, center: mapcenter });
-    placeMarkers(fscreens);
+    placeMarkers(properties);
 }
-function placeMarkers(objscreens){
+function placeMarkers(objpropties){
     var geocoder = new google.maps.Geocoder();
-    objscreens.forEach(function (element) {
-        if (element.address_lat == '' || element.address_log == '') {
+    objpropties.forEach(function (element) {
+        if (element.address_lat == '' || element.address_long == '') {
             geocoder.geocode({ address: element.screen_address }, (results, status) => {
                 if (status === "OK") {
                     var location = results[0].geometry.location;
                     element.address_lat = location.lat();
-                    element.address_log = location.lng();
+                    element.address_long = location.lng();
                     addMarker();
                 } else {
                     console.log("Geocode was not successful for the following reason: " + status);
@@ -158,11 +77,8 @@ function placeMarkers(objscreens){
             });
         }
         var obj = {
-            id: element.id,
-            title: element.screen_title,
             lat: element.address_lat,
-            long: element.address_log,
-            address: element.screen_address
+            long: element.address_long
         }
         markers.push(obj)
     })
@@ -182,7 +98,7 @@ function markpins() {
             }, map: map,
             animation: google.maps.Animation.DROP,
             title: markers[i].title,
-            icon: 'src/images/svg/screen-mk.svg'
+            icon: 'src/images/map-pin.png'
         });
         var position = new google.maps.LatLng(lat, log);
         map.setCenter(position);
@@ -191,23 +107,23 @@ function markpins() {
             this.setZoom(11);
         });
 
-        google.maps.event.addListener(marker, 'click', (function (marker, i) {
-            return function () {
-                if (infoWindow)
-                var infoContents="";
-                var screen = screens.filter(function (el) {
-                    return el.id == markers[i].id;
-                  });
-                  if(screen){
-                    var tooltip_data = screen[0].detail_url;	
-                    $(".map-screen-popup .popup-body").load(tooltip_data, function(response, status, xhr) {	
-                        var $slickElement = $(".map-screen-popup .popup-body .screen_images");
-                        $slickElement.slick();
-                        $(".map-screen-popup").toggle();
-                    });
-                  }
-            }
-        })(marker, i));
+        // google.maps.event.addListener(marker, 'click', (function (marker, i) {
+        //     return function () {
+        //         if (infoWindow)
+        //         var infoContents="";
+        //         var screen = screens.filter(function (el) {
+        //             return el.id == markers[i].id;
+        //           });
+        //           if(screen){
+        //             var tooltip_data = screen[0].detail_url;	
+        //             $(".map-screen-popup .popup-body").load(tooltip_data, function(response, status, xhr) {	
+        //                 var $slickElement = $(".map-screen-popup .popup-body .screen_images");
+        //                 $slickElement.slick();
+        //                 $(".map-screen-popup").toggle();
+        //             });
+        //           }
+        //     }
+        // })(marker, i));
     }
 }
 function listScreens(){

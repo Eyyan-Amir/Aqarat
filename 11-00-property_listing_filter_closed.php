@@ -1,4 +1,6 @@
 <?php include_once "includes/header.php";?>
+<script src="src/js/map.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?callback=initMap&sensor=false"></script>
 <div class="content-wrapper propertyListing">
     <div class="pageHead">
         <div class="container">
@@ -21,7 +23,7 @@
                                 <img src="src/images/list.png " alt="" class="img-fluid">
                             </span>List
                         </a>
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#map" role="tab" aria-controls="profile-tab" aria-selected="false">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#propertyListingMap" role="tab" aria-controls="profile-tab" aria-selected="false">
                             <span>
                                 <img src="src/images/map.png " alt="" class="img-fluid">
                             </span>Map
@@ -270,7 +272,7 @@
                                 <div class="grid"  data-grid-item-width="1/5" data-item-gap="15">
                                     <div>
                                         <div class="radio">
-                                            <label style="">
+                                            <label>
                                                 <input type="radio" name="Bathroom" checked="">
                                                 <span class="icon text">
                                                     1
@@ -479,9 +481,9 @@
                 </form>
             </div>
         </div>
-        <div class="container">
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="propertyListing" role="tabpanel">
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="propertyListing" role="tabpanel">
+                <div class="container">
                     <div class="row properties ">
                         <div class="col-md-4 mb-25">
                             <?php include "includes/propertyItemListing.php";?>
@@ -497,11 +499,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="map" role="tabpanel" >
-                    <div class="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620721.5190696276!2d47.67357481886846!3d29.314293746622194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc5363fbeea51a1%3A0x74726bcd92d8edd2!2sKuwait!5e0!3m2!1sen!2s!4v1619290857955!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="tab-pane fade" id="propertyListingMap" role="tabpanel" >
+                <div class="mapListings">
+                    <div class="mapListings__list">
+                        <div class="mapListings__list--count">253 Salmiya , Kuwait Apartments</div>
+                        <div class="inner-scroll">
+                            <div class="row properties ">
+                                <div class="col-md-6 mb-25">
+                                    <?php include "includes/propertyItemListing.php";?>
+                                </div>
+                                <div class="col-md-6 mb-25">
+                                    <?php include "includes/propertyItemListing.php";?>
+                                </div>
+                                <div class="col-md-6 mb-25">
+                                    <?php include "includes/propertyItemListing.php";?>
+                                </div>
+                                <div class="col-md-6 mb-25">
+                                    <?php include "includes/propertyItemListing.php";?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mapListings__map">
+                        <div class="map" id="map">
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d620721.5190696276!2d47.67357481886846!3d29.314293746622194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc5363fbeea51a1%3A0x74726bcd92d8edd2!2sKuwait!5e0!3m2!1sen!2s!4v1619290857955!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe> -->
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
