@@ -4039,17 +4039,21 @@ h3.sectionTitle {
       margin-right: 5px; }
   .properties .property__info--features ul {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
     .properties .property__info--features ul li {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
       justify-content: flex-start;
-      flex: 0 0 33.3%;
-      max-width: 33.3%;
       position: relative;
       color: #003160;
-      font-size: 1.125rem; }
+      font-size: 1.125rem;
+      margin-bottom: 1rem; }
+      .properties .property__info--features ul li:not(:last-child) {
+        margin-right: 1.6875rem;
+        padding-right: 1.75rem; }
       .properties .property__info--features ul li .icon {
         margin-right: 1.125rem; }
       .properties .property__info--features ul li img {
@@ -4061,7 +4065,7 @@ h3.sectionTitle {
         height: 70%;
         width: 1px;
         background: #0082ff;
-        left: calc(100% / 1.5);
+        right: 0;
         top: 50%;
         transform: translateY(-50%); }
       .properties .property__info--features ul li:last-child::before {

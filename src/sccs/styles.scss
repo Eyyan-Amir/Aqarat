@@ -5,7 +5,7 @@
 }
 
 .white-bg {
-    background: #fff;
+    background: #fff; 
 }
 
 .content-wrapper {
@@ -597,14 +597,22 @@ h3.sectionTitle {
                 ul {
                     display: flex;
                     justify-content: space-between;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
                     li {
                         @include flex(flex-start,
                         flex-start);
-                        flex: 0 0 33.3%;
-                        max-width: 33.3%;
+                        
+                        // flex: 0 0 33.3%;
+                        // max-width: 33.3%;
                         position: relative;
                         color: #003160;
                         font-size: rem(18px);
+                        margin-bottom: rem(16px);
+                        &:not(:last-child) {
+                            margin-right: rem(27px);
+                            padding-right: rem(28px);
+                        }
                         // .icon{
                         //     display: flex;
                         //     width: 100%;
@@ -630,7 +638,8 @@ h3.sectionTitle {
                             height: 70%;
                             width: 1px;
                             background: #0082ff;
-                            left: calc(100% / 1.5);
+                            // left: calc(100% / 1.5);
+                            right: 0;
                             top: 50%;
                             transform: translateY(-50%);
                         }
