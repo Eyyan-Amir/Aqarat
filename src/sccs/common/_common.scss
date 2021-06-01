@@ -368,8 +368,7 @@ $data-gap-list: 0, 2, 3, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55,
 				list-style: none;
 				justify-content: center;
 				li {
-					
-                    overflow:hidden;
+					overflow: hidden;
 					&:not(:last-child) {
 						margin-right: rem(15px);
 					}
@@ -379,36 +378,35 @@ $data-gap-list: 0, 2, 3, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55,
 					}
 					a {
 						@include flex(center, center);
-                        width: 40px;
-                        height: 40px;
-                        border-radius: 100%;
-                        background: #fff;
-                        transition: 0.5s ease all;
+						width: 40px;
+						height: 40px;
+						border-radius: 100%;
+						background: #fff;
+						transition: 0.5s ease all;
 						// width: 100%;
 						// height: 100%;
 						color: #0082ff;
-                        &:hover{
-                            background: #0082ff;
-                            color:#fff !important;
-                        }
+						&:hover {
+							background: #0082ff;
+							color: #fff !important;
+						}
 					}
 					&.delete {
-                        
 						a {
 							color: #be1f2c;
-                            &:hover {
-                                background: #be1f2c;
-                                a {
-                                    color: #fff !important;
-                                }
-                            }
+							&:hover {
+								background: #be1f2c;
+								a {
+									color: #fff !important;
+								}
+							}
 						}
-                        // &:hover{
-                        //     background: #be1f2c;
-                        //     a{
-                        //         color:#fff !important;
-                        //     }
-                        // }
+						// &:hover{
+						//     background: #be1f2c;
+						//     a{
+						//         color:#fff !important;
+						//     }
+						// }
 					}
 					// &.delete {
 					// 	&:hover {
@@ -1535,10 +1533,11 @@ $data-gap-list: 0, 2, 3, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55,
 	}
 	.modal-footer {
 		border: unset;
-		margin-bottom: 30px;
 		text-align: center;
+		margin-bottom: 20px;
 		margin-left: auto;
 		margin-right: auto;
+		flex-direction: column;
 		a {
 			color: #b9c9d8;
 			text-transform: uppercase;
@@ -1553,6 +1552,7 @@ $data-gap-list: 0, 2, 3, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55,
 			text-transform: uppercase;
 			font-weight: bold;
 			letter-spacing: 1.2px;
+			margin-top: rem(35px);
 			margin-bottom: unset;
 			a {
 				color: var(--secondary);

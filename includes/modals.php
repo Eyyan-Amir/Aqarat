@@ -111,7 +111,7 @@
                 </div>
                 <div class="modal-footer">
                     <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#forgetPassword"><i>Forgot your password?</i></a>
-                    <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#forgetPassword"><i>ALREADY HAVE ACCOUNT? SIGN UP</i></a>
+                    <p class="mx-auto">Already have account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#register">sign in</a></p>
                 </div>
             </div>
         </div>

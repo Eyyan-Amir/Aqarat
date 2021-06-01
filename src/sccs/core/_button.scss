@@ -1,6 +1,6 @@
 .button-row {
 	@include flex(center, center);
-	margin: rem(35px) 0 rem(40px);
+	margin: rem(35px) 0 rem(5px);
 	.list-inline-item:not(:last-child) {
 		margin-right: rem(65px);
 	}
