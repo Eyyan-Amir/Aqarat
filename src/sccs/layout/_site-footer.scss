@@ -22,7 +22,11 @@ footer {
                 a {
                     color: #fff;
                     font-size: rem(19px);
-                    text-decoration: none;
+                    text-decoration: none; 
+                    &:hover {
+                        color: #fff!important;
+                        border-bottom: 1px solid;
+                    }
                 }
             }
         }
@@ -70,6 +74,12 @@ footer {
             }
             &--img {
                 text-align: right;
+                a {
+                    display: inline-block;
+                    &:hover {
+                        opacity: .75;
+                    }
+                }
                 img {
                     position: relative;
                     top: -10px;

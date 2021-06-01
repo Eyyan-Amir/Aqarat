@@ -17,7 +17,7 @@
             <div class="container">
                 <h2 class="sectionTitle">How To Invest</h2>
                 <div class="slick-instance" data-slick='{"slidesToShow": 4, "slidesToScroll": 1 ,"responsive": [
-                {"breakpoint": 1200, "settings": {"slidesToShow": 3, "centerMode":false}}, {"breakpoint": 992, "settings": {"slidesToShow": 2,"centerMode": false}},{"breakpoint": 576, "settings": {"slidesToShow": 1,"centerMode": true}}
+                {"breakpoint": 1200, "settings": {"slidesToShow": 3, "centerMode":false}}, {"breakpoint": 992, "settings": {"slidesToShow": 2,"centerMode": false}},{"breakpoint": 576, "settings": {"slidesToShow": 1,"centerMode": false}}
                 ]}'>
                     <div class="invest__item">
                         <div class="invest__item--image">

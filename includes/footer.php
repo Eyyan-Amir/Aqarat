@@ -30,7 +30,9 @@
                         </ul>
                     </div>
                     <div class="footer__foot--img">
-                        <img src="./src/images/footer__icon.png" alt="">
+                        <a href="@index.php">
+                            <img src="./src/images/footer__icon.png" alt="">
+                        </a>
                     </div>
                 </div>
             </div>

@@ -56,7 +56,7 @@
                             <label class="control-label col-sm-2">Location</label>
                             <div class="col-sm-10">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="form-group float-label">
                                             <label class="control-label" >Area</label>
                                             <select class="selectpicker">
@@ -70,7 +70,7 @@
                                         
                                         
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="form-group float-label">
                                             <label class="control-label">Area</label>
                                             <select class="selectpicker">
@@ -136,7 +136,7 @@
                             <label class="control-label col-sm-2">Property</label>
                             <div class="col-sm-10">
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio">
                                             <label style="">
                                                 <input type="radio" name="property" checked="">
@@ -146,7 +146,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio">
                                             <label style="">
                                                 <input type="radio" name="property" checked="">
@@ -156,7 +156,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio icon">
                                             <label style="">
                                                 <input type="radio" name="property">
@@ -166,7 +166,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio icon">
                                             <label style="">
                                                 <input type="radio" name="property">
@@ -176,7 +176,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio icon">
                                             <label style="">
                                                 <input type="radio" name="property">
@@ -186,7 +186,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio icon">
                                             <label style="">
                                                 <input type="radio" name="property">
@@ -196,7 +196,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-6">
                                         <div class="radio icon">
                                             <label style="">
                                                 <input type="radio" name="property">
@@ -327,7 +327,7 @@
                             <label class="control-label col-sm-2">Amenities</label>
                             <div class="col-sm-10">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="Amenities" checked="">
@@ -339,7 +339,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio" >
@@ -351,7 +351,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio" >
@@ -363,7 +363,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio" checked="">
@@ -375,7 +375,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio" >
@@ -387,7 +387,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio" >
@@ -399,7 +399,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio">
@@ -411,7 +411,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio">
@@ -423,7 +423,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio">
@@ -435,7 +435,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio">
@@ -447,7 +447,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio">
@@ -459,7 +459,7 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-6">
                                         <div class="checkbox">
                                             <label>
                                                 <input type="checkbox" name="radio">
@@ -485,16 +485,16 @@
             <div class="tab-pane fade show active" id="propertyListing" role="tabpanel">
                 <div class="container">
                     <div class="row properties ">
-                        <div class="col-md-4 mb-25">
+                        <div class="col-lg-4 col-sm-6 mb-25">
                             <?php include "includes/propertyItemListing.php";?>
                         </div>
-                        <div class="col-md-4 mb-25">
+                        <div class="col-lg-4 col-sm-6 mb-25">
                             <?php include "includes/propertyItemListing.php";?>
                         </div>
-                        <div class="col-md-4 mb-25">
+                        <div class="col-lg-4 col-sm-6 mb-25">
                             <?php include "includes/propertyItemListing.php";?>
                         </div>
-                        <div class="col-md-4 mb-25">
+                        <div class="col-lg-4 col-sm-6 mb-25">
                             <?php include "includes/propertyItemListing.php";?>
                         </div>
                     </div>
