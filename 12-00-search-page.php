@@ -12,8 +12,8 @@
             </div>
             <div class="search__wrapper--search">
                 <div class="properties">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="property__item">
                                 <div class="property__item--image">
                                     <img src="src/images/house.png" alt="" class="img-fluid">
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="property__item">
                                 <div class="property__item--image">
                                     <img src="src/images/house.png" alt="" class="img-fluid">
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="property__item">
                                 <div class="property__item--image">
                                     <img src="src/images/house.png" alt="" class="img-fluid">

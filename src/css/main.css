@@ -4255,6 +4255,9 @@ h3.sectionTitle {
           font-weight: bold; }
     .search-results .search__wrapper--search {
       margin-bottom: 3.4375rem; }
+      @media screen and (max-width: 991px) {
+        .search-results .search__wrapper--search .properties .row > div {
+          margin-bottom: 2.1875rem; } }
   .search-results .about__wrapper {
     background: #fff;
     padding: 2.5rem 0px; }
