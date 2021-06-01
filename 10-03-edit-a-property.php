@@ -265,7 +265,7 @@
                             </button>
                         </div> -->
                         <div class="searchProperty">
-                            <div class="container">
+                            <div class="">
                                 <div class="searchProperty__input">
                                     <input type="text" class="form-control searchInput" placeholder="Ahmad Al Jabe St">
                                 </div>
