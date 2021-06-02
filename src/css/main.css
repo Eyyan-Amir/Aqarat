@@ -539,7 +539,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 2.1875rem 0 2.5rem; }
+  margin: 2.1875rem 0 0.3125rem; }
   .button-row .list-inline-item:not(:last-child) {
     margin-right: 4.0625rem; }
 
@@ -2650,10 +2650,11 @@ form {
       overflow: visible; }
   .modal .modal-footer {
     border: unset;
-    margin-bottom: 30px;
     text-align: center;
+    margin-bottom: 20px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    flex-direction: column; }
     .modal .modal-footer a {
       color: #b9c9d8;
       text-transform: uppercase;
@@ -2667,6 +2668,7 @@ form {
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 1.2px;
+      margin-top: 2.1875rem;
       margin-bottom: unset; }
       .modal .modal-footer p a {
         color: var(--secondary); }
@@ -5551,6 +5553,27 @@ h3.sectionTitle {
   @media screen and (max-width: 1199px) {
     .propertyListing .tab-content {
       padding-left: 3.75rem; } }
+
+.table {
+  overflow: hidden; }
+
+.table td, .table th {
+  border: 0;
+  vertical-align: middle; }
+
+.table.dataTable thead th, .table.dataTable thead td {
+  border-bottom: 0; }
+
+.table.dataTable tbody td {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: #003160;
+  color: white !important; }
+
+.table.dataTable.no-footer {
+  border-bottom-color: #d2d2d2; }
 
 @media screen and (max-width: 1199px) {
   .changePassword .inline-btn .btn {

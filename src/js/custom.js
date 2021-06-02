@@ -158,8 +158,17 @@ var aqarat = {
         // } );
         //         }, 300 );
         $('#example').DataTable( {
-        "order": [[ 3, "desc" ]]
-    } );
+        "order": [[ 3, "desc" ]],
+        responsive: true,
+            } );
+        // $('#example')
+		// 		.addClass( 'nowrap' )
+		// 		.dataTable( {
+		// 			responsive: true,
+		// 			columnDefs: [
+		// 				{ targets: [-1, -3], className: 'dt-body-right' }
+		// 			]
+		// 		} );
         
 
     },
