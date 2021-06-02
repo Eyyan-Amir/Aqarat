@@ -149,6 +149,9 @@ var aqarat = {
                 $( 'body' ).addClass( 'modal-open' );
             }
         } );
+        $('#myTable').DataTable();
+        $('.display').dataTable();
+
     },
     uploadControls: function () {
         $( document ).on( "change", '.file-wrapper input[type="file"]', function ( e ) {

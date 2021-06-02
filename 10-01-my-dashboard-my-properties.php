@@ -23,7 +23,7 @@
                     <button type="submit" class="btn btn-primary">go!</button>
                 </div>
             </form>
-            <div class="table">
+            <div class="table display" id='myTable'>
                 <div class="table__head">
                     <div class="table__row">
                         <div class="table__row--cell" data-width="10">
