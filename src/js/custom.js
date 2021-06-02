@@ -149,8 +149,18 @@ var aqarat = {
                 $( 'body' ).addClass( 'modal-open' );
             }
         } );
-        $('#myTable').DataTable();
-        $('.display').dataTable();
+        // $("#myTable").dataTable();
+        // $('.display').dataTable();
+        // .dataTable();
+        // setTimeout( function () {
+        //             $('#myTable').DataTable( {
+        //     "order": [[ 3, "desc" ]]
+        // } );
+        //         }, 300 );
+        $('#example').DataTable( {
+        "order": [[ 3, "desc" ]]
+    } );
+        
 
     },
     uploadControls: function () {
