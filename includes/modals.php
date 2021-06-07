@@ -111,7 +111,7 @@
                 </div>
                 <div class="modal-footer">
                     <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#forgetPassword"><i>Forgot your password?</i></a>
-                    <p class="mx-auto">Already have account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#register">sign in</a></p>
+                    <p class="mx-auto">Don't Have An Account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#register">sign up</a></p>
                 </div>
             </div>
         </div>
@@ -156,7 +156,6 @@
                                     <option>+965</option>
                                     <option>+965</option>
                                     <option>+965</option>
-                                </select>
                             </select>
                             <input type="tel" class="form-control" placeholder="Phone Number">
                         </div>
@@ -289,57 +288,103 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                        <div class="uploadFile__item" data-text="add logo">
-                            <div class="uploadFile__item--file">
-                                <input type="file" name="file">
-                            </div>
-                            
+                    <div class="uploadFile__item" data-text="add logo">
+                        <div class="uploadFile__item--file">
+                            <input type="file" name="file">
                         </div>
                         
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Full Name">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Company Name / Tagline">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Email ID">
-                        </div>
+                    </div>
                         
-                        <div class="form-group">
-                            <div class="fields-group">
-                                <!-- <input type="text" value="+965" class="form-control font-weight-bold" placeholder="Height"> -->
-                                <select class="selectpicker form-control" title="Code">
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                    <option>+965</option>
-                                </select>
-                                <input type="tel" class="form-control" placeholder="Phone Number">
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Company Name / Tagline">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email ID">
+                    </div>
                         
-                        <div class="button-row">
-                            <button class="btn btn-secondary ">
-                                submit
-                            </button>
+                    <div class="form-group">
+                        <div class="fields-group">
+                            <!-- <input type="text" value="+965" class="form-control font-weight-bold" placeholder="Height"> -->
+                            <select class="selectpicker form-control" title="Code">
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                                <option>+965</option>
+                            </select>
+                            <input type="tel" class="form-control" placeholder="Phone Number">
                         </div>
+                    </div>
+                        
+                    <div class="button-row">
+                        <button class="btn btn-secondary ">
+                            submit
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
  <!-- // abuse Modal -->
 
-    
-
+ <div class="modal fade " id="abuseModal" tabindex="-1" role="dialog" aria-labelledby="abuseModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-title"></span>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Reason for Abuse</label>
+                    <div>
+                        <select class="selectpicker form-control">
+                            <option>False Company</option>
+                            <option>2 Week</option>
+                            <option>3 Week</option>
+                            <option>4 Week</option>
+                            <option>5 Week</option>
+                            <option>6 Week</option>
+                            <option>7 Week</option>
+                            <option>8 Week</option>
+                            <option>9 Week</option>
+                            <option>10 Week</option>
+                            <option>1 Year</option>
+                            <option>2 Year</option>
+                            <option>3 Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Comments"></textarea>
+                </div>
+                <div class="button-row">
+                    <button class="btn btn-danger ">
+                        Report Abuse
+                    </button>
+                </div>
+            </div>
+        </div>     
+    </div>
+</div>
+ <!-- end -->
+ 
     
     <div class="modal fade" id="regCompleted" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
         <div class="modal-dialog" role="document">

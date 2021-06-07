@@ -254,16 +254,6 @@
                 <div class="col-12">
                     <div class="form-group">
                         <label class="control-label">Google Map Location</label>
-                        <!-- <div class="searchAddress">
-                            <div class="form-group mb-0">
-                            <input type="text" class="form-control" placholder="Ahmad Al Jabe St">
-                            </div>
-                            <button class="searchAddress--search">
-                                <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 56.966 56.966" xml:space="preserve">
-                                    <use xlink:href="#search-icon-google"></use>
-                                </svg>
-                            </button>
-                        </div> -->
                         <div class="searchProperty">
                             <div class="">
                                 <div class="searchProperty__input">
