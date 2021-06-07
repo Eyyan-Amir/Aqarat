@@ -2969,7 +2969,7 @@ header {
 
 footer {
   background: url(../../src/images/footer.png) left bottom no-repeat;
-  padding: 2.5rem 0rem 1.8rem 0;
+  padding: 1.9rem 0rem 1.4rem 0;
   margin-top: auto;
   background-size: contain;
   z-index: -1;
@@ -2983,8 +2983,8 @@ footer {
     max-width: 725px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3.75rem;
-    margin-bottom: 2.8125rem; }
+    margin-top: 3rem;
+    margin-bottom: 2.4375rem; }
     footer .footer__list ul a {
       color: #fff;
       font-size: 1.1875rem;
@@ -3006,7 +3006,7 @@ footer {
       top: 0;
       left: 50%;
       transform: translateX(-50%); }
-    footer .footer__foot [class^="footer__foot--"] {
+    footer .footer__foot [class^='footer__foot--'] {
       width: 33.3%; }
     footer .footer__foot--copyright {
       text-align: left; }
@@ -3030,7 +3030,7 @@ footer {
       footer .footer__foot--img a {
         display: inline-block; }
         footer .footer__foot--img a:hover {
-          opacity: .75; }
+          opacity: 0.75; }
       footer .footer__foot--img img {
         position: relative;
         top: -10px; }

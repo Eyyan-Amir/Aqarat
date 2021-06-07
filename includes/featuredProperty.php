@@ -47,6 +47,7 @@
                 <span>BY</span>
                 Gulf Investment Co.
             </div>
+            <a href="#" class="abs-link"></a>
         </div>
     </div>
 </div> 
